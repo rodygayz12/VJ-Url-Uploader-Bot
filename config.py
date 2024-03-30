@@ -44,7 +44,7 @@ class Config(object):
     TECH_VJ_MAX_MESSAGE_LENGTH = 4096
     
     # set timeout for subprocess
-    TECH_VJ_PROCESS_MAX_TIMEOUT = 3600
+    TECH_VJ_PROCESS_MAX_TIMEOUT = 9999
     
     # your telegram account id
     TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "6221136155")) 
@@ -52,7 +52,7 @@ class Config(object):
     
     # database uri (mongodb)
     TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://onfarooq2:onfarooq2@cluster0.ax3qpvn.mongodb.net/?retryWrites=true&w=majority")
-    TECH_VJ_MAX_RESULTS = "50"
+    TECH_VJ_MAX_RESULTS = "70"
 
     # channel information
     TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002083195253")) # your log channel id and make bot admin in log channel with full right 
