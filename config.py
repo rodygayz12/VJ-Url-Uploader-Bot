@@ -44,7 +44,7 @@ class Config(object):
     TECH_VJ_MAX_MESSAGE_LENGTH = 4096
     
     # set timeout for subprocess
-    TECH_VJ_PROCESS_MAX_TIMEOUT = 9999
+    TECH_VJ_PROCESS_MAX_TIMEOUT = 0
     
     # your telegram account id
     TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "6221136155")) 
